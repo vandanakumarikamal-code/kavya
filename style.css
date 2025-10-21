@@ -1,0 +1,98 @@
+/* Base body style */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #fceef5; /* soft pastel pink */
+  color: #333;
+  text-align: center;
+}
+
+/* Buttons */
+button {
+  padding: 15px 35px;
+  font-size: 1.3rem;
+  color: #fff;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: transform 0.3s, background 0.3s;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+/* Welcome button */
+.welcome-btn {
+  margin-top: 50px;
+  padding: 20px 40px;
+  font-size: 2rem;
+  font-weight: bold;
+  background: #f5a9b8; /* pastel pink */
+}
+
+/* Notes & Projects buttons */
+.main-btn {
+  margin: 20px;
+  background: #a9d6f5; /* pastel blue */
+}
+
+/* Intro text */
+.intro {
+  margin: 30px 20px;
+  font-size: 1.5rem;
+  line-height: 1.8;
+}
+
+/* Container for subject cards */
+.subject-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 40px;
+}
+
+/* Subject cards */
+.subject-card {
+  background: #fff0f5;
+  border-radius: 15px;
+  padding: 30px 40px;
+  width: 200px;
+  cursor: pointer;
+  transition: transform 0.3s, box-shadow 0.3s;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.subject-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+}
+
+/* Notes list style */
+.notes-list {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.note-item {
+  background: #fff0f5;
+  padding: 15px 25px;
+  border-radius: 12px;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.note-item button {
+  margin-left: 10px;
+  background: #a9d6f5;
+}
